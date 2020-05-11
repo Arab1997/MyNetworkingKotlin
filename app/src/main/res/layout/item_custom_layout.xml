@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/tennis_image"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/tennis_name"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/tennis_image"
+            android:text="FIRST NAME"
+            android:textColor="@android:color/black"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/tennis_image"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/tennis_location"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tennis_name"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="265dp"
+            android:layout_marginRight="265dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toEndOf="@+id/tennis_image"
+            android:text="LAST NAME"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tennis_image" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cbcbcb">
+
+    </LinearLayout>
+
+</LinearLayout>
